@@ -1,0 +1,1 @@
+var galleryThumbs=new Swiper(".gallery-thumbs",{slidesPerView:4,freeMode:!0,watchSlidesProgress:!0}),galleryTop=new Swiper(".gallery-top",{autoplay:{delay:2500,disableOnInteraction:!1},navigation:{nextEl:".swiper-button-next",prevEl:".swiper-button-prev"},thumbs:{swiper:galleryThumbs}});
